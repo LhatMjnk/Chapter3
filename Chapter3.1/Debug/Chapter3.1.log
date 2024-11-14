@@ -1,0 +1,5 @@
+﻿  CMyOpenGLCtrl.cpp
+C:\Users\royal\Downloads\Chapter3\Chapter3.1\CMyOpenGLCtrl.cpp(119,29): warning C4305: '=': truncation from 'double' to 'GLfloat'
+  (compiling source file '/CMyOpenGLCtrl.cpp')
+  
+  Chapter3.1.vcxproj -> C:\Users\royal\Downloads\Chapter3\Debug\Chapter3.1.exe

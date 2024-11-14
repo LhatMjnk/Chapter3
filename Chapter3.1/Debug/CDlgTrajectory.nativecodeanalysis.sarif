@@ -1,0 +1,1989 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'min_x'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                },
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CDlgTrajectory::OnPaint",
+                  "decoratedName": "?OnPaint@CDlgTrajectory@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "'min_x' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<m_xE.GetSize()' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'min_x' is an In/Out argument to 'CGraph::SetRangeX' (declared at c:\\users\\royal\\downloads\\chapter3\\toolinter\\graph.h:329)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 1
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'min_x' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'max_x'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                },
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CDlgTrajectory::OnPaint",
+                  "decoratedName": "?OnPaint@CDlgTrajectory@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "'max_x' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<m_xE.GetSize()' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'max_x' is an In/Out argument to 'CGraph::SetRangeX' (declared at c:\\users\\royal\\downloads\\chapter3\\toolinter\\graph.h:329)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 1
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "'max_x' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'min_y'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CDlgTrajectory::OnPaint",
+                  "decoratedName": "?OnPaint@CDlgTrajectory@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'min_y' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<m_xE.GetSize()' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'min_y' is an In/Out argument to 'CGraph::SetRangeY' (declared at c:\\users\\royal\\downloads\\chapter3\\toolinter\\graph.h:330)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 1
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'min_y' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'max_y'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CDlgTrajectory::OnPaint",
+                  "decoratedName": "?OnPaint@CDlgTrajectory@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 52,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "'max_y' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 54,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume 'i<m_xE.GetSize()' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 72,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'max_y' is an In/Out argument to 'CGraph::SetRangeY' (declared at c:\\users\\royal\\downloads\\chapter3\\toolinter\\graph.h:330)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 58
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 1
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 27
+                          }
+                        },
+                        "message": {
+                          "text": "'max_y' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.41.34120.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/royal/Downloads/Chapter3/Chapter3.1/CDlgTrajectory.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "bc1bdc6fdf681dc1d4da2bf9b166f3e4e6738a0e128ef084fcbf0b7fd43f9a32"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/chapter3.1/pch.h"
+          },
+          "hashes": {
+            "sha-256": "2094b91693cd3840f3a6f51189db353b3effd3da45636178d599b699f02c68bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/chapter3.1/framework.h"
+          },
+          "hashes": {
+            "sha-256": "3fbdf2536ce3b71811d81172bb1ccc2d58b44b569326433f3ca10477e724c4a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/chapter3.1/targetver.h"
+          },
+          "hashes": {
+            "sha-256": "a2761fdbd4c8925741ddea678ee8398de930207e447666bc6a76d5f72684c04f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/toolinter.h"
+          },
+          "hashes": {
+            "sha-256": "4c23fbe400e6e2d3f960d3f13cd86b37e8f1d776c2133b3a12f6dd0928f021ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/mathlib.h"
+          },
+          "hashes": {
+            "sha-256": "a2ba3a5450244ec87d9ae94c2bde0cb6617b6141faf22302dcb01baf4c71a2bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/graph.h"
+          },
+          "hashes": {
+            "sha-256": "51fbc0ad96699a3e389673dc2ec617b82082bab191b44927cdd32667d255e6e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/mybitmap.h"
+          },
+          "hashes": {
+            "sha-256": "4abd869bd62a0609d8cb760849a9d2e67f9252e739611810a34e5e73b56aea76"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/mywinapp.h"
+          },
+          "hashes": {
+            "sha-256": "d748c330930aea312731b11fa792fca361a83056e0ac0dd87f36503e4bae2c9b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/applicationfont.h"
+          },
+          "hashes": {
+            "sha-256": "eb548fe4333207faf0eccd7e91677b2c98c8685068c10e19cadebd8a259cf71d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/chapter3.1/resource.h"
+          },
+          "hashes": {
+            "sha-256": "8913e05f4b181c06708c11d2c666a4b70396c5a5dc9bbae02b19234403be23c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/autofont.h"
+          },
+          "hashes": {
+            "sha-256": "43203909aec8d0d2958afd55b34975659e5bc3255fd51dc9325927a84420567a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/newtype.h"
+          },
+          "hashes": {
+            "sha-256": "eebef7675bf666ff2630ab18d3934d2a5dc93c3a265ba8d867173aeb436a7076"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/hyperlink.h"
+          },
+          "hashes": {
+            "sha-256": "e08c6ab06e86ecc6592062c7a38d49e36e79e38cd3ca93b2aa9526dbe0a97bb8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/xtabctrl.h"
+          },
+          "hashes": {
+            "sha-256": "a67d35babeb6b52151062857e34766f6736c0ef2a8984e116ca6512d55fb0df9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/mytabctrl.h"
+          },
+          "hashes": {
+            "sha-256": "2de3fd5c0524e8f027cd6a2115b3961db8add2acdce9d981a3eaa70c0bff329e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/xptabctrl.h"
+          },
+          "hashes": {
+            "sha-256": "841448018c0ec9a9477498893e5fc04338b506994291ce9fd09e754abba0fced"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/listboxst.h"
+          },
+          "hashes": {
+            "sha-256": "09ecd80bd817dbd37db7d6dd93b02a6a9744b6fc62777f8b348474d0189f70eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/buttonlistctrl.h"
+          },
+          "hashes": {
+            "sha-256": "88c3bf94c6dd03375682ff36126b1fe297f4ca4cb30aa7a14f4997e108d07a66"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/winlist.h"
+          },
+          "hashes": {
+            "sha-256": "5190e15bf190407c989fe8dab01dbcffb848381e15766219bf89352a88c5bddd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/st_splitterwnd.h"
+          },
+          "hashes": {
+            "sha-256": "37aa8f7e3994ba7dd6562c446b8398848167f135a716cd45286771485cda2bbc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/gradientstatic.h"
+          },
+          "hashes": {
+            "sha-256": "ddd3ec92bc202bc5e7f5553a63f3f4eb6f6ca06df6e8af05f7256e8b665baa49"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/toolinter/checkablegroupbox.h"
+          },
+          "hashes": {
+            "sha-256": "44dec8c3216bcb816aff8cc0021a7b2b9a841c1c1afb32154b8dbba72eeddb9e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/nummethodtools.h"
+          },
+          "hashes": {
+            "sha-256": "60cd23c0e544f5f6d3c1236e2a279a1e6723b17e0b8264842c72ce281b679454"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/mconvert.h"
+          },
+          "hashes": {
+            "sha-256": "de95c5a2f5ebdb0da2af8798903f99a842bdf570a0b37aaf8e3f7c9d54d5efd2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/mathlib.h"
+          },
+          "hashes": {
+            "sha-256": "58ae86409ed75dfd36994676b746081f8d6ebb298ea44daf93de83c81f79b9f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/matrix.h"
+          },
+          "hashes": {
+            "sha-256": "017ff7c6ff96f6fd67334562baa43af8f0e0b6b394fcf95dfcfaea97063017a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/point.h"
+          },
+          "hashes": {
+            "sha-256": "fc9de63a5d8e472a5151648ae5c9cc6f142267da944daedbe9bf0421d404d1b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/vector.h"
+          },
+          "hashes": {
+            "sha-256": "ee192285aa82f8f77f8879e4da6adaf7dad76b4cdcba554d6190e2fd535f1901"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/point2d.h"
+          },
+          "hashes": {
+            "sha-256": "ddc89c6941961114375569d9e24e2ba6d70209e82e748daac7ff2a86a41fd598"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/point3d.h"
+          },
+          "hashes": {
+            "sha-256": "6fd869692f5d09b9c31f737cc9fbcc1225a6063a9880630aff844d2113a1c23e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/line.h"
+          },
+          "hashes": {
+            "sha-256": "f3330a16d2ec8d771888657c7690c30fa70aedbf18f59fea8cf4a36c2df47c52"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/affine2d.h"
+          },
+          "hashes": {
+            "sha-256": "126b33ea42d62a3f2fb8970a2f83026e289449f787d39cd0cffb6f23e3a4474c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/affine3d.h"
+          },
+          "hashes": {
+            "sha-256": "805df78f6afb9447913aba55290c5c69836cc8c67dc4f7e95ea1a7ab12dfeb33"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/sproject.h"
+          },
+          "hashes": {
+            "sha-256": "7ead6b72d2fe8e74e60e51042cc31834a5e80508f6362bb9bffc926db08f6655"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/modulnummethod.h"
+          },
+          "hashes": {
+            "sha-256": "a789b3b696163b1ec214df2f967bb657b8b76c8d6b72d289566fe41b8c66a88c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/valuetype.h"
+          },
+          "hashes": {
+            "sha-256": "7a111a095986f0ad40fce13e5b493459d5d78982a199b4210e1b8143f6979b0e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/nummethodtools/expression.h"
+          },
+          "hashes": {
+            "sha-256": "ca76fa4e66fd18c6768b55762c6bcdd886578dffd5001c79caaebf1c53a06b70"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/opengl/opengl.h"
+          },
+          "hashes": {
+            "sha-256": "5a9451c09079fc7b6d7a99d3f56f0c861e1d142d7c25c1b3f62803257772d0ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/opengl/openglctrl.h"
+          },
+          "hashes": {
+            "sha-256": "aebbf1324064c94b479f05015d87088e0686d83440466d25bec05995c3ef1c10"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/opengl/stlfile.h"
+          },
+          "hashes": {
+            "sha-256": "fb1cbc7b7670fcfe9b6f331270fdefe9dc5c5795085d977df0e6708ef6d5b451"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/openglsetting/openglsetting.h"
+          },
+          "hashes": {
+            "sha-256": "bc0fba42e018b7acee5db273de9c9019cf826422cedcca788743aaa328c9f5b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/openglsetting/resource.h"
+          },
+          "hashes": {
+            "sha-256": "0565392b8e1db1f97de48e242f9674e06d798e0cbf8a11e1aaa7dea9b349412a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/openglsetting/dlgsettinglight.h"
+          },
+          "hashes": {
+            "sha-256": "92c721f1133ee6566c936c2c45bfdd2e1ca344ceed019cb21a06329ad094114f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/openglsetting/dlgsettingmaterial.h"
+          },
+          "hashes": {
+            "sha-256": "d50b00c6dacee3b5b1e7165e9bf90225064264cbf5f42c3b9049fee3edc65e0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/openglsetting/dlgsettingmaterialmultiobject.h"
+          },
+          "hashes": {
+            "sha-256": "33ecaa34f7fd12c0ce55c4bbc3d807cdc934a3c2e89156790d6628374b05d78f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/chapter3.1/chapter3.1.h"
+          },
+          "hashes": {
+            "sha-256": "d6843c2487092ebdb2f1ea8e62a9fb9b87b3f333cedbb5f3675db0f30b988c3b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/royal/downloads/chapter3/chapter3.1/cdlgtrajectory.h"
+          },
+          "hashes": {
+            "sha-256": "5d9d58061a1a8f619f1d4c163769c75fb386d9e9ecb4a96b97fdf497be411ede"
+          }
+        }
+      ]
+    }
+  ]
+}

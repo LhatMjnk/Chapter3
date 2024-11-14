@@ -4,6 +4,7 @@
 
 #pragma once
 #include "CRobot3DOF.h"
+#include "CMyOpenGLCtrl.h"
 
 
 class CChapter31View : public CView
@@ -16,6 +17,8 @@ protected: // create from serialization only
 public:
 	CChapter31Doc* GetDocument() const;
 	CRobot3DOF m_robot;
+	CMyOpenGLCtrl m_openGL;
+	int m_indexPosition = 0;
 
 // Operations
 public:
@@ -49,6 +52,15 @@ public:
 	afx_msg void OnDemorobotAcceleration();
 	afx_msg void OnDemorobotTrajectory();
 	afx_msg void OnUpdateDemorobotPremeter(CCmdUI* pCmdUI);
+	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
+	afx_msg void OnSize(UINT nType, int cx, int cy);
+	afx_msg void OnDemorobotRun();
+	afx_msg void OnDemorobotPause();
+	afx_msg void OnDemorobotStop();
+	afx_msg void OnTimer(UINT_PTR nIDEvent);
+	afx_msg void OnViewLight();
+	afx_msg void OnViewMaterialoflink0();
+	afx_msg void OnViewMaterialoflink1();
 };
 
 #ifndef _DEBUG  // debug version in Chapter3.1View.cpp
