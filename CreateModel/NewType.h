@@ -9,7 +9,7 @@
 #endif // _MSC_VER > 1000
 
 #ifndef NEWTYPE_EXT_CLASS
-#define NEWTYPE_EXT_CLASS TOOLINTER_EXT_CLASS
+#define NEWTYPE_EXT_CLASS CREATEMODEL_EXT_CLASS
 #endif NEWTYPE_EXT_CLASS
 
 #include <afxtempl.h>
@@ -29,7 +29,7 @@ public:
 	{
 		this->Copy( in );
 	}
-	CNewArray operator=(const CNewArray & in)
+	CNewArray & operator=(const CNewArray & in)
 	{
 		this->Copy( in );
 		return *this;
